@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>sem3_project</groupId>
-    <artifactId>sp6_opg</artifactId>
+    <artifactId>devops-starter</artifactId>
     <version>1.0.1</version>
     <packaging>war</packaging>
 
