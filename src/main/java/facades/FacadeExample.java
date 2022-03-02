@@ -81,6 +81,7 @@ public class FacadeExample {
     public static void main(String[] args) {
         emf = EMF_Creator.createEntityManagerFactory();
         FacadeExample fe = getFacadeExample(emf);
+        System.out.println("Count: "+fe.getRenameMeCount());
         fe.getAll().forEach(dto->System.out.println(dto));
     }
 
